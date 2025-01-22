@@ -1,6 +1,7 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    /* Supression de la marge haute pour que la bordure des liens atteigne le haut de la page */
     margin-top: 0;
 }
 
@@ -19,6 +20,7 @@ body {
     justify-content: center;
 }
 
+/* Ajout du css pour la partie entête du projet */
 header {
     display: flex;
     justify-content: space-between;
@@ -42,10 +44,11 @@ nav {
 }
 
 .lien:hover{
-    color: #0065FC;
-    border-top: solid #0065FC 2px;
+    color: var(--main-color);
+    border-top: solid var(--main-color) 2px;
     padding-top: 8px;
 }
+/* Fin de l'ajout de l'entête */
 
 .main-container {
     width: 100%;
