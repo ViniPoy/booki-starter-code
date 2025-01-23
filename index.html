@@ -26,6 +26,24 @@
             </nav>
         </header>
         <main>
+            <!-- Création de la zone de recherche -->
+            <div class="zone-recherche">
+                <!-- Titre de la zone -->
+                <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+                <p>En plein centre ville ou en pleine nature</p>
+                <!-- Ajout du formulaire de recherche -->
+                <form method="get" action="" class="formulaire-recherche">
+                    <div class="geoloc">
+                        <label for="recherche"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></label>
+                    </div>
+                    <input type="text" name="recherche" id="recherche" value="Marseille, France">
+                    <!-- J'ai mis une classe spécifique pour pouvoir jouer avec les positions et changer de button pour la version mobile -->
+                    <div class="btn-recherche">
+                        <button class="btn">Rechercher</button>
+                        <button class="btn-logo"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </form>
+            </div>
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
 

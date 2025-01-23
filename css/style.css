@@ -20,6 +20,13 @@ body {
     justify-content: center;
 }
 
+.main-container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
 /* Ajout du css pour la partie entête du projet */
 header {
     display: flex;
@@ -50,12 +57,66 @@ nav {
 }
 /* Fin de l'ajout de l'entête */
 
-.main-container {
-    width: 100%;
-    max-width: 1440px;
-    padding: 0 50px;
-    box-sizing: border-box;
+/* Création de la zone de recherche */
+.zone-recherche h2 {
+    margin-bottom: 2px;
 }
+
+.zone-recherche p {
+    font-size: small;
+}
+
+.formulaire-recherche {
+    display: flex;
+    margin: 20px 0 20px 0;
+}
+
+.geoloc {
+    background-color: var(--main-bg-color);
+    padding: 10px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.fa-location-dot {
+    color: black;
+}
+
+#recherche {
+    border-left: none;
+    border-right: none;
+    border-bottom: var(--filter-bg-color) 1px solid;
+    border-top: var(--filter-bg-color) 1px solid;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.btn-recherche {
+    position: relative;
+}
+
+.btn {
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.fa-magnifying-glass {
+    color: white;
+}
+
+.btn-logo {
+    display: none;
+    position: absolute;
+    padding: 12px;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 10px;
+}
+/* Fin de la zone de recherche */
 
 a {
     color: inherit;
