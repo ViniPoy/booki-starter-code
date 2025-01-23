@@ -84,8 +84,8 @@ nav {
 #recherche {
     border-left: none;
     border-right: none;
-    border-bottom: var(--filter-bg-color) 1px solid;
-    border-top: var(--filter-bg-color) 1px solid;
+    border-bottom: var(--main-bg-color) 1px solid;
+    border-top: var(--main-bg-color) 1px solid;
     font-weight: bold;
     font-size: 15px;
     padding-left: 15px;
@@ -117,6 +117,32 @@ nav {
     border-radius: 10px;
 }
 /* Fin de la zone de recherche */
+
+/* Mise en page de la zone de filtre (et de la ligne d'info) */
+.zone-filtre {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 575px;
+    margin-bottom: 10px;
+}
+
+.btn-filtre {
+    background-color: white;
+    font-weight: bolder;
+    padding: 10px 15px 10px 15px;
+    border-radius: 25px;
+    border: 2px solid var(--main-bg-color)
+}
+
+.btn-filtre:hover {
+    background-color: var(--filter-bg-color);
+}
+
+.info-recherche {
+    margin-bottom: 20px;
+}
+/* Fin de la zone filtre */
 
 a {
     color: inherit;
