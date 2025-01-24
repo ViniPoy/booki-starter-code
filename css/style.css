@@ -294,6 +294,39 @@ a {
     margin-bottom: 5px;
 }
 
+/* Mise en page de la section Activité */
+.activite {
+    margin: 30px;
+}
+
+.activite h2 {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.activite-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.activite-cards .card {
+    width: 300px;
+    height: 465px;
+    padding: 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.activite-cards img {
+    height: 400px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.activite-cards h3 {
+    padding: 20px;
+}
 
 
 
