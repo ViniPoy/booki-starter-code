@@ -44,19 +44,23 @@
                     </div>
                 </form>
                 <!-- Création de la zone de filtres -->
-                <div class="zone-filtre">
-                    <h4>Filtres</h4>
-                    <button class="btn-filtre"><i class="fa-solid fa-money-bill-wave" aria-hidden="true"></i> Économique</button>
-                    <button class="btn-filtre"><i class="fa-solid fa-person" aria-hidden="true"></i> Familial</button>
-                    <button class="btn-filtre"><i class="fa-solid fa-heart" aria-hidden="true"></i> Romantique</button>
-                    <button class="btn-filtre"><i class="fa-solid fa-fire" aria-hidden="true"></i> Nos pépites</button>
-                </div>
-                <div class="info-recherche">
-                    <p><i class="fa-solid fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
-                </div>
+                <section class="zone-filtre">
+                    <div class="title-filtre">
+                        <h4>Filtres</h4>
+                    </div>
+                    <div class="filtre">
+                        <button class="btn-filtre"><i class="fa-solid fa-money-bill-wave" aria-hidden="true"></i> Économique</button>
+                        <button class="btn-filtre"><i class="fa-solid fa-person" aria-hidden="true"></i> Familial</button>
+                        <button class="btn-filtre"><i class="fa-solid fa-heart" aria-hidden="true"></i> Romantique</button>
+                        <button class="btn-filtre"><i class="fa-solid fa-fire" aria-hidden="true"></i> Nos pépites</button>
+                    </div>
+                    </section>
+                <section class="info-recherche">
+                    <i class="fa-solid fa-info"></i><p> Plus de 500 logements sont disponibles dans cette ville</p>
+                </section>
             </div>
             <div class="hebergements-and-populaires">
-                <section class="hebergements">
+                <section class="hebergements" id="hebergements">
                     <h2 class="section-title" id="ancre-hebergement">Hébergements à Marseille</h2>
                     <div class="hebergements-cards">
                         <a href="#">
@@ -232,7 +236,7 @@
                 </section>
             </div>
             <!-- Ajout de la section activité -->
-            <div class="activite">
+            <section class="activite">
                 <h2 class="section-title" id="ancre-activite">Activités à Marseille</h2>
                 <div class="activite-cards">
                     <a href="#">
@@ -260,8 +264,9 @@
                         </article>
                     </a>
                 </div>
-            </div>
+            </section>
         </main>
+        <!-- Création du footer -->
         <footer>
             <div class="foot-card">
                 <h4>À propos</h4>
