@@ -472,8 +472,8 @@ footer {
         font-size: 20px;
     }
 
-    .formulaire-recherche {
-        width: 100%;
+    #recherche {
+        width: 60%;
     }
 
     .btn {
