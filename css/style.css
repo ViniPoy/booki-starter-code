@@ -62,7 +62,7 @@ nav a:hover{
 /* Fin de l'ajout de l'entête */
 
 /* Création de la zone de recherche */
-.zone-recherche h2 {
+.zone-recherche h1 {
     margin-bottom: 5px;
     font-size: 22px;
 }
@@ -130,6 +130,10 @@ nav a:hover{
     gap: 20px;
     width: 650px;
     margin-bottom: 10px;
+}
+
+.title-filtre h2 {
+    font-size: 18px;
 }
 
 .filtre {
@@ -488,7 +492,7 @@ footer {
     }
 
     #recherche {
-        width: 60%;
+        width: 50%;
     }
 
     .btn {
