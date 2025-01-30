@@ -27,16 +27,16 @@
         </header>
         <main>
             <!-- Création de la zone de recherche -->
-            <div class="zone-recherche">
+            <section class="zone-recherche">
                 <!-- Titre de la zone -->
                 <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
                 <p>En plein centre ville ou en pleine nature</p>
                 <!-- Ajout du formulaire de recherche -->
-                <form method="get" action="" class="formulaire-recherche">
+                <form method="get" action="./" class="formulaire-recherche">
                     <div class="geoloc">
                         <label for="recherche"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></label>
                     </div>
-                    <input type="text" name="recherche" id="recherche" value="Marseille, France">
+                    <input type="text" name="recherche" id="recherche" placeholder="Marseille, France">
                     <!-- J'ai mis une classe spécifique pour pouvoir jouer avec les positions et changer de button pour la version mobile -->
                     <div class="btn-recherche">
                         <button class="btn">Rechercher</button>
@@ -44,7 +44,7 @@
                     </div>
                 </form>
                 <!-- Création de la zone de filtres -->
-                <section class="zone-filtre">
+                <div class="zone-filtre">
                     <div class="title-filtre">
                         <h4>Filtres</h4>
                     </div>
@@ -54,11 +54,11 @@
                         <button class="btn-filtre"><i class="fa-solid fa-heart" aria-hidden="true"></i> Romantique</button>
                         <button class="btn-filtre"><i class="fa-solid fa-fire" aria-hidden="true"></i> Nos pépites</button>
                     </div>
-                </section>
+                </div>
                 <section class="info-recherche">
                     <i class="fa-solid fa-info"></i><p> Plus de 500 logements sont disponibles dans cette ville</p>
                 </section>
-            </div>
+            </section>
             <div class="hebergements-and-populaires">
                 <section class="hebergements" id="hebergements">
                     <h2 class="section-title" id="ancre-hebergement">Hébergements à Marseille</h2>
